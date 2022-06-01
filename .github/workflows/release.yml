@@ -33,6 +33,7 @@ jobs:
       - name: Test
         run: npm run test
 
+      # disabled until I figure out how to publish to the org
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_ACTIONS }}

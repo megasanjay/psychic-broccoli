@@ -9,9 +9,14 @@
     "template"
   ],
   "homepage": "https://github.com/fairdataihub/psychic-broccoli",
-  "bugs": "https://github.com/fairdataihub/psychic-broccoli/issues",
+  "bugs": {
+    "url": "https://github.com/fairdataihub/psychic-broccoli/issues"
+  },
   "author": "FAIR Data Innovations Hub <contact@fairdataihub.org>",
-  "repository": "fairdataihub/psychic-broccoli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fairdataihub/psychic-broccoli.git"
+  },
   "main": "./build/cjs/index.js",
   "module": "./build/esm/index.js",
   "types": "./build/index.d.ts",
