@@ -1,8 +1,8 @@
 # Typescript Library Starter
 
-![NPM](https://img.shields.io/npm/l/@gjuchault/typescript-library-starter)
-![NPM](https://img.shields.io/npm/v/@gjuchault/typescript-library-starter)
-![GitHub Workflow Status](https://github.com/gjuchault/typescript-library-starter/actions/workflows/typescript-library-starter.yml/badge.svg?branch=main)
+![NPM](https://img.shields.io/npm/l/@fairdataihub/psychic-broccoli)
+![NPM](https://img.shields.io/npm/v/@fairdataihub/psychic-broccoli)
+![GitHub Workflow Status](https://github.com/fairdataihub/psychic-broccoli/actions/workflows/typescript-library-starter.yml/badge.svg?branch=main)
 
 Yet another (opinionated) typescript library starter template.
 
@@ -14,7 +14,7 @@ Yet another (opinionated) typescript library starter template.
 
 ## Getting started
 
-1. `git clone git@github.com:gjuchault/typescript-library-starter.git my-project`
+1. `git clone https://github.com/fairdataihub/psychic-broccoli.git my-project`
 2. `cd my-project`
 3. `npm install`
 4. `npm run setup`
@@ -23,8 +23,8 @@ Or click on `Use this template` button on GitHub!
 
 To enable deployment, you will need to:
 
-1. Setup `NPM_TOKEN` secret in GitHub actions ([Settings > Secrets > Actions](https://github.com/gjuchault/typescript-service-starter/settings/secrets/actions))
-2. Give `GITHUB_TOKEN` write permissions for GitHub releases ([Settings > Actions > General](https://github.com/gjuchault/typescript-service-starter/settings/actions) > Workflow permissions)
+1. Setup `NPM_TOKEN` secret in GitHub actions ([Settings > Secrets > Actions](https://github.com/fairdataihub/psychic-broccoli/settings/secrets/actions))
+2. Give `GITHUB_TOKEN` write permissions for GitHub releases ([Settings > Actions > General](https://github.com/fairdataihub/psychic-broccoli/settings/actions) > Workflow permissions)
 
 ## Features
 

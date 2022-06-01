@@ -11,18 +11,18 @@ async function main() {
     );
 
     if (!gitEmail.trim().length) {
-      await exec(`git config --global user.email actions@github.com`);
-      await exec(`git config --global user.name GithubActions`);
+      await exec(`git config --global user.email fairdataihub@gmail.com`);
+      await exec(`git config --global user.name fairdataihub-bot`);
     }
   } catch (err) {
-    await exec(`git config --global user.email actions@github.com`);
-    await exec(`git config --global user.name GithubActions`);
+    await exec(`git config --global user.email fairdataihub@gmail.com`);
+    await exec(`git config --global user.name fairdataihub-bot`);
   }
 
   await run({
-    githubUserName: "ghUserName",
-    packageName: "packageName",
-    userMail: "ghUserName@mail.com",
+    githubUserName: "fairdataihub-bot",
+    packageName: "psychic-broccoli",
+    userMail: "fairdataihub@gmail.com",
   });
 
   try {
@@ -44,7 +44,7 @@ async function restore() {
   await exec(`git reset HEAD~ && git checkout . && git clean -df`);
 
   await exec(
-    `git remote add origin git@github.com:gjuchault/typescript-library-starter.git`
+    `git remote add origin git@github.com:fairdataihub/psychic-broccoli.git`
   );
 
   await exec(`npm install`);
