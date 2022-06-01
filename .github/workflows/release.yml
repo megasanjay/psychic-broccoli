@@ -1,12 +1,15 @@
-name: semantic-release
+name: Create release on GitHub and npm
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
-  typescript-library-starter:
+  release-package:
     runs-on: ubuntu-latest
 
     concurrency:
@@ -18,8 +21,8 @@ jobs:
       - uses: volta-cli/action@v1
       - run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Test
+        run: npm run test
 
       - name: Format check
         run: npm run format:check
@@ -30,12 +33,11 @@ jobs:
       - name: Spell check
         run: npm run spell:check
 
-      - name: Test
-        run: npm run test
+      - name: Build
+        run: npm run build
 
-      # disabled until I figure out how to publish to the org
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.BOT_ACTIONS }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm run semantic-release
+      # - name: Release
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.BOT_ACTIONS }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #   run: npm run semantic-release
