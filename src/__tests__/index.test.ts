@@ -1,5 +1,5 @@
 import test from "ava";
-import { foo, bar } from "../index";
+import { add, subtract, multiply } from "../index";
 
 test("add()", (t) => {
   t.is(add(1, 2), 3);
