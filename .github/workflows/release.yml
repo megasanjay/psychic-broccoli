@@ -33,11 +33,8 @@ jobs:
       - name: Test
         run: npm run test
 
-      - name: Setup test
-        run: npm run test:setup
-
       - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.BOT_ACTIONS }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm run semantic-release
