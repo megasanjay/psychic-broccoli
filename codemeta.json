@@ -8,14 +8,17 @@
   "downloadUrl": "https://github.com/fairdataihub/SODA-for-SPARC-Docs",
   "issueTracker": "https://github.com/fairdataihub/SODA-for-SPARC-Docs/issues",
   "name": "SODA for SPARC docs",
-  "version": "5.3.3",
+  "version": "1.0.2",
   "description": "Documentation for the SODA for SPARC application",
   "applicationCategory": "Scientific",
   "funding": "OT2OD030213",
   "developmentStatus": "active",
   "isPartOf": "https://fairdataihub.org/",
   "referencePublication": "https://doi.org/10.1096/fasebj.2020.34.s1.02483",
-  "funder": { "@type": "Organization", "@name": "National Institutes of Health (NIH)" },
+  "funder": {
+    "@type": "Organization",
+    "@name": "National Institutes of Health (NIH)"
+  },
   "keywords": [
     "SPARC",
     "FAIR",
@@ -27,7 +30,10 @@
     "ubuntu",
     "windows"
   ],
-  "programmingLanguage": ["JavaScript", "CSS"],
+  "programmingLanguage": [
+    "JavaScript",
+    "CSS"
+  ],
   "relatedLink": [
     "https://docs.sodaforsparc.io/",
     "https://github.com/fairdataihub/SODA-for-SPARC"
@@ -38,35 +44,51 @@
       "givenName": "Sanjay",
       "familyName": "Soundarajan",
       "email": "ssoundarajan@calmi2.org",
-      "affiliation": { "@type": "Organization", "name": "FAIR Data Innovations Hub" }
+      "affiliation": {
+        "@type": "Organization",
+        "name": "FAIR Data Innovations Hub"
+      }
     },
     {
       "@type": "Person",
       "givenName": "Aaron",
       "familyName": "Marroquin",
       "email": "cmarroquin@calmi2.org",
-      "affiliation": { "@type": "Organization", "name": "FAIR Data Innovations Hub" }
+      "affiliation": {
+        "@type": "Organization",
+        "name": "FAIR Data Innovations Hub"
+      }
     },
     {
       "@type": "Person",
       "givenName": "Tram",
       "familyName": "Ngo",
       "email": "tngo@calmi2.org",
-      "affiliation": { "@type": "Organization", "name": "FAIR Data Innovations Hub" }
+      "affiliation": {
+        "@type": "Organization",
+        "name": "FAIR Data Innovations Hub"
+      }
     },
     {
       "@type": "Person",
       "givenName": "Dorian",
       "familyName": "Portillo",
       "email": "dportiollo@calmi2.org",
-      "affiliation": { "@type": "Organization", "name": "FAIR Data Innovations Hub" }
+      "affiliation": {
+        "@type": "Organization",
+        "name": "FAIR Data Innovations Hub"
+      }
     },
     {
       "@type": "Person",
       "givenName": "Bhavesh",
       "familyName": "Patel",
       "email": "bpatel@calmi2.org",
-      "affiliation": { "@type": "Organization", "name": "FAIR Data Innovations Hub" }
+      "affiliation": {
+        "@type": "Organization",
+        "name": "FAIR Data Innovations Hub"
+      }
     }
-  ]
+  ],
+  "identifier": "https://doi.org/10.5072/zenodo.1069698"
 }
